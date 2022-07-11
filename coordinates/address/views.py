@@ -13,7 +13,7 @@ SECRET = os.getenv('secret')
 TEMPLATE = 'address/index.html'
 
 
-def index(request):
+def index_address(request):
 
     submitbutton = request.POST.get('submit')
 
